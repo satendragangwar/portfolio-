@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&family=Whisper&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tapestry&family=Whisper&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    
+    background-color: rgb(204, 200, 200);
+    /* width: 300px; */
+    font-family: 'Tapestry', cursive;
+    transition: transform 0.3s ease-in;
+    
+}
+
+.sidebar nav{
+    padding: 30px;
+    height: 100vh;
+    margin: auto auto;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 33px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.main{
+    /* background-color: blueviolet; */
+    width: 85%;
+    /* font-family: 'Tapestry', cursive; */
+
+}
+
+.container{
+    display: flex;
+    /* background-color: #2a2a2a; */
+    color: white
+    
+}
+
+.infocontainer{
+    /* background-color: brown; */
+    width: 69vw;
+    height: 50vh;
+    margin: 146px auto;
+    display: flex;
+    justify-content: space-around;
+    /* color: black */
+
+}
+
+.devpic img{
+    width: 320px;
+    height: 50vh;
+   
+}
+.devinfo{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column; 
+}
+.hello{
+    font-size: 2.9rem;
+    /* font-family: 'Dancing Script', cursive;  */
+
+}
+.name{
+    font-size: 1.7rem;
+    
+    /* font-family: 'Dancing Script', cursive;  */
+
+
+}
+.about{
+    font-size: 1.5rem;
+    /* font-family: 'Dancing Script', cursive;  */
+
+
+}
+.button .btn1{
+    padding: 8px;
+    border-radius: 15px;
+    
+    margin: 14px;
+    background-color: cornflowerblue;
+    cursor: pointer;
+
+
+}
+.button .btn2{
+    padding: 8px;
+    border-radius: 15px;
+    
+    background-color: cornflowerblue;
+    cursor: pointer;
+margin: 14px;
+}
+
+.button button:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 140px;
+}
+
+.contactform h1{
+    text-align: center;
+}
+
+
+
+.contactform form div{
+    padding: 10px 0 ;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 18vw;
+    border-radius: 5px;
+    margin: 0 0;
+    padding: 3px;
+    
+
+    
+}
+#form-check{
+
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.btn{
+    
+        padding: 8px;
+        border-radius: 15px;
+        
+        background-color: cornflowerblue;
+        cursor: pointer;
+    margin: 14px;
+    
+
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+
+
+}
+
+.blogitems{
+    margin: 20px;
+    font-size: 1.3rem;
+}
+
+.blogcontainer h2{
+    text-align: center;
+    margin: 18px;
+    font-size: 2.4rem;
+}
+.btn9{
+    padding: 4px;
+    margin: 3px;
+    border-radius: 19px ;
+    background-color: aquamarine;
+    color: black;
+
+}
+
+.btn9:hover{
+    background-color: black;
+    color: white;
+}
+
+.skillscontainer li {
+    padding: 0 9px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.intro h1 {
+    padding: 4px;
+    margin: 3px 5px;
+}
+.skillscontainer1 li {
+    list-style: none;
+    
+    padding: 4px;
+    margin: 12px;
+}
+.intro h2 {
+    padding: 4px;
+    margin: 3px 5px;
+}
+.intro p {
+    padding: 4px;
+    margin: 3px 5px;
+    font-size: 1.4rem;
+}
+.skills{
+    width: 265px;
+    height: 9px;
+    background-color: blueviolet;
+}
+
+.skills1{
+    width: 290px;
+    height: 9px;
+    background-color: aqua;
+}
+.skills2{
+    width: 240px;
+    height: 9px;
+    background-color: red;
+}
+.skills3{
+    width: 400px;
+    height: 9px;
+    background-color: green;
+}
+
+.sk div {
+    padding: 8px;
+    margin: 3px;
+}
+
+@media (max-width: 700px) {
+    *{
+        background-color: rgb(255, 224, 224);
+    }
+
+    .devpic{
+        display: none;
+    }
+
+    .sidebar{
+        position: absolute;
+    }
+    /* .sidebar{
+        transform: translate(-443px ,0px);
+        position: absolute;
+    } */
+
+}
+
+/* .hamburger1{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+} */
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    
+    
+}
+.cross1{
+    margin-left: 189px;
+}
+
+.sidebarGo{
+    transform: translate(-443px ,0px);
+    position: absolute;
+}
+
+.devpic{
+    border-radius: 50%;
+}
+
+.intro{
+    /* background-color: brown; */
+    width: 69vw;
+    height: 50vh;
+    margin: 0px auto;
+}
+
+.blogcontainer{
+    width: 69vw;
+    height: 50vh;
+    margin: 0px auto;
+
+}
+.contactform{
+    width: 69vw;
+    height: 50vh;
+    margin: 0px auto;
+
+
+}
+
+body{
+    background-color: #2a2a2a;
+    
+}
+
+.skillscontainer1{
+    font-size: 1.3rem;
+}
